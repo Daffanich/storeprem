@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapstore | Pricelist Akun Premium & Digital</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4f46e5',
+                        secondary: '#7c3aed',
+                        dark: '#0f172a'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-primary selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-card border-b border-slate-200 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i data-lucide="zap" class="w-6 h-6 text-primary"></i>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">Dap<span class="text-primary">store</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-slate-600 hover:text-primary font-medium transition-colors">Keunggulan</a>
+                    <a href="#pricelist" class="text-slate-600 hover:text-primary font-medium transition-colors">Pricelist</a>
+                    <a href="#faq" class="text-slate-600 hover:text-primary font-medium transition-colors">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-100 via-slate-50 to-slate-50"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100/50 text-indigo-700 text-sm font-semibold mb-6 border border-indigo-200">
+                <span class="flex h-2 w-2 rounded-full bg-indigo-600 animate-pulse"></span>
+                Aman, Terpercaya, & Bergaransi
+            </div>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 mb-6">
+                Akses Aplikasi Premium <br class="hidden md:block">
+                <span class="gradient-text">Tanpa Menguras Dompet.</span>
+            </h1>
+            <p class="mt-4 max-w-2xl text-lg text-slate-600 mx-auto mb-10">
+                Tingkatkan produktivitas dan hiburan Anda dengan akses pro. Kami menyediakan layanan akun dengan garansi jelas dan harga bersahabat.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#pricelist" class="inline-flex justify-center items-center gap-2 px-8 py-3.5 text-base font-semibold text-white bg-primary hover:bg-indigo-700 rounded-xl shadow-lg shadow-indigo-200 transition-all hover:-translate-y-0.5">
+                    Lihat Daftar Harga
+                    <i data-lucide="arrow-down" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Features Section -->
+    <section id="features" class="py-16 bg-white border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center text-center p-6">
+                    <div class="w-14 h-14 bg-indigo-50 text-primary rounded-2xl flex items-center justify-center mb-4">
+                        <i data-lucide="shield-check" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Garansi Berjalan</h3>
+                    <p class="text-slate-600 text-sm">Akun bermasalah sesuai S&K? Kami ganti atau perbaiki tanpa biaya tambahan.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6">
+                    <div class="w-14 h-14 bg-purple-50 text-secondary rounded-2xl flex items-center justify-center mb-4">
+                        <i data-lucide="zap" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Proses Cepat</h3>
+                    <p class="text-slate-600 text-sm">Setelah pembayaran terkonfirmasi, pesanan langsung diproses dan dikirim via WhatsApp.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6">
+                    <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mb-4">
+                        <i data-lucide="headphones" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Support Responsif</h3>
+                    <p class="text-slate-600 text-sm">Ada kendala saat login atau pemakaian? Admin kami siap merespon pertanyaan Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricelist Section -->
+    <section id="pricelist" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Katalog Layanan Dapstore</h2>
+                <p class="text-slate-600">Pilih layanan yang Anda butuhkan. Klik pada produk untuk melihat detail varian dan garansi.</p>
+            </div>
+
+            <!-- Product Grid -->
+            <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Products will be injected here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-white">
+        <!-- ... existing FAQ code ... -->
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Pertanyaan Seputar Layanan</h2>
+                <p class="text-slate-600">Pastikan Anda membaca ini sebelum melakukan pembelian.</p>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50">
+                    <h3 class="font-bold text-slate-900 flex items-center gap-2 mb-2">
+                        <i data-lucide="help-circle" class="w-5 h-5 text-primary"></i>
+                        Bagaimana sistem pembayarannya?
+                    </h3>
+                    <p class="text-slate-600 text-sm">Pembayaran dilakukan secara manual dengan menghubungi admin melalui WhatsApp setelah Anda memilih paket.</p>
+                </div>
+                <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50">
+                    <h3 class="font-bold text-slate-900 flex items-center gap-2 mb-2">
+                        <i data-lucide="help-circle" class="w-5 h-5 text-primary"></i>
+                        Bagaimana sistem garansinya?
+                    </h3>
+                    <p class="text-slate-600 text-sm">Garansi berlaku sesuai dengan syarat dan ketentuan masing-masing produk (tertera di detail produk). Harap patuhi aturan penggunaan (seperti batas device/dilarang ubah password) agar garansi tidak hangus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex justify-center items-center gap-2 mb-6">
+                <i data-lucide="zap" class="w-6 h-6 text-primary"></i>
+                <span class="font-bold text-xl tracking-tight text-white">Dap<span class="text-primary">store</span></span>
+            </div>
+            <p class="text-slate-400 text-sm mb-6 max-w-md mx-auto">
+                Platform penyedia layanan premium hemat, aman, dan bergaransi. Buka potensi penuh aplikasimu sekarang.
+            </p>
+            <div class="text-slate-500 text-sm">
+                &copy; 2026 Dapstore. All rights reserved.<br>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Pilihan Paket -->
+    <div id="variant-modal" class="fixed inset-0 z-[100] hidden flex items-center justify-center">
+        <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity" onclick="closeModal()"></div>
+        <div class="relative bg-white rounded-2xl text-left overflow-hidden shadow-2xl transform transition-all w-full max-w-lg mx-4 z-10 flex flex-col max-h-[90vh]">
+            
+            <div class="px-6 py-4 border-b border-slate-100 flex justify-between items-start bg-slate-50/90 backdrop-blur-md sticky top-0 z-20">
+                <div id="modal-header-content" class="pr-4">
+                    <h3 class="text-xl font-bold text-slate-900" id="modal-title">Pilih Paket</h3>
+                    <!-- Deskripsi akan diinject disini -->
+                </div>
+                <button onclick="closeModal()" class="text-slate-400 hover:text-slate-700 bg-white shadow-sm border border-slate-200 hover:bg-slate-50 p-2 rounded-full transition-colors flex-shrink-0 mt-1">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            
+            <div class="px-6 py-6 overflow-y-auto bg-white" id="modal-variants-container">
+                <!-- Variasi akan di-inject lewat JS -->
+            </div>
+            
+            <div class="px-6 py-5 border-t border-slate-100 flex justify-end gap-3 bg-slate-50 sticky bottom-0 z-20">
+                <button onclick="closeModal()" class="px-5 py-2.5 bg-white border border-slate-200 text-slate-700 rounded-xl hover:bg-slate-100 font-semibold transition-colors">Batal</button>
+                <a href="#" id="modal-checkout-btn" target="_blank" class="px-5 py-2.5 bg-primary hover:bg-indigo-700 text-white rounded-xl font-semibold shadow-lg shadow-indigo-200/50 flex items-center gap-2 opacity-50 cursor-not-allowed pointer-events-none transition-all">
+                    <i data-lucide="message-circle" class="w-4 h-4 text-indigo-100"></i>
+                    Pesan via WA
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Data and Logic -->
+    <script>
+        // Inisialisasi ikon dari Lucide
+        lucide.createIcons();
+
+        // Data 12 Item berdasarkan permintaan User
+        const products = [
+            {
+                id: 1,
+                name: "Canva Pro",
+                category: "Produktivitas",
+                description: "✅ Full Garansi Untuk Semua Durasi\n✅ Via Invite Email\n✅ Khusus Education: Tidak Pindah Pindah Team",
+                image: "https://placehold.co/150x150/0ea5e9/ffffff?text=Canva",
+                variants: [
+                    { id: "c_1", name: "1 Bulan (Member Pro)", price: "5.000", detail: "Member Pro" },
+                    { id: "c_2", name: "6 Bulan (Member Pro)", price: "15.000", detail: "Member Pro" },
+                    { id: "c_3", name: "1 Bulan (Canva Admin)", price: "18.000", detail: "Akses Admin" },
+                    { id: "c_4", name: "2 Bulan (Canva Admin)", price: "27.000", detail: "Akses Admin" },
+                    { id: "c_5", name: "6 Bulan (Education)", price: "17.000", detail: "Tim Paten" },
+                    { id: "c_6", name: "1 Tahun (Education)", price: "28.000", detail: "Tim Paten" },
+                    { id: "c_7", name: "1 Bulan (Owner)", price: "13.000", detail: "Akses Owner" }
+                ]
+            },
+            {
+                id: 2,
+                name: "CapCut Pro",
+                category: "Produktivitas",
+                description: "✅ Garansi Backfree 7 Hari\n✅ Full Garansi Full Satu Bulan\n⚠️ Aturan Private: Max 3-5 Device\n⚠️ Aturan Sharing: Cuma 1 Device, dilarang ubah pw, no garansi limit login",
+                image: "https://placehold.co/150x150/1e293b/ffffff?text=CapCut",
+                variants: [
+                    { id: "cc_1", name: "28 Hari (Sharing)", price: "10.000", detail: "Max 1 Device" },
+                    { id: "cc_2", name: "28 Hari (Private)", price: "15.000", detail: "Max 3-5 Device" },
+                    { id: "cc_3", name: "35 Hari (Auto Re-new)", price: "15.000", detail: "Max 2 Device (Perpanjang tiap minggu)" },
+                    { id: "cc_4", name: "35 Hari (Private)", price: "20.000", detail: "Max 3-5 Device" },
+                    { id: "cc_5", name: "45 Hari (Private)", price: "28.000", detail: "Max 3-5 Device" }
+                ]
+            },
+            {
+                id: 3,
+                name: "Gemini AI + GDrive 2TB",
+                category: "Produktivitas",
+                description: "✅ Full Garansi\n✅ Akun Fresh Wajib\n⚠️ Wajib kirim Email & Password untuk email pembeli (Risiko ditanggung pembeli)\nℹ️ Gemini AI (setara ChatGPT) + GDrive 2TB",
+                image: "https://placehold.co/150x150/2563eb/ffffff?text=Gemini",
+                variants: [
+                    { id: "gm_1", name: "1 Bulan (Akun Pembeli)", price: "8.000", detail: "Akses 1 Bulan" },
+                    { id: "gm_2", name: "3 Bulan (Akun Pembeli)", price: "13.000", detail: "Akses 3 Bulan" },
+                    { id: "gm_3", name: "1 Bulan (Akun Seller)", price: "15.000", detail: "Akses 1 Bulan (Terima Jadi)" },
+                    { id: "gm_4", name: "3 Bulan (Akun Seller)", price: "20.000", detail: "Akses 3 Bulan (Terima Jadi)" }
+                ]
+            },
+            {
+                id: 4,
+                name: "Gemini AI + Flow 1000 Credit",
+                category: "Produktivitas",
+                description: "✅ Full Garansi\n✅ VEO 3 Anti Limit (Make Video AI Simple)\n✅ Akun Fresh Wajib\n⚠️ Wajib kirim Email & Password untuk email pembeli",
+                image: "https://placehold.co/150x150/8b5cf6/ffffff?text=Gemini+VEO",
+                variants: [
+                    { id: "gf_1", name: "1 Bulan (Akun Pembeli)", price: "8.000", detail: "Flow 1000 Credit" },
+                    { id: "gf_2", name: "1 Bulan (Akun Seller)", price: "13.000", detail: "Terima Jadi" }
+                ]
+            },
+            {
+                id: 5,
+                name: "Alight Motion",
+                category: "Kreatif",
+                description: "Akses premium fitur Alight Motion untuk editing animasi dan video profesional.",
+                image: "https://placehold.co/150x150/10b981/ffffff?text=Alight+M",
+                variants: [
+                    { id: "am_1", name: "1 Tahun (Garansi 6 Bulan)", price: "5.000", detail: "Garansi Parsial" },
+                    { id: "am_2", name: "1 Tahun (Full Garansi)", price: "10.000", detail: "Garansi Penuh" }
+                ]
+            },
+            {
+                id: 6,
+                name: "Bstation",
+                category: "Hiburan",
+                description: "✅ Support All Device\n✅ Akun Dari Admin\nℹ️ Untuk paket 1 Tahun, Garansi berlaku 6 Bulan",
+                image: "https://placehold.co/150x150/3b82f6/ffffff?text=Bstation",
+                variants: [
+                    { id: "bs_1", name: "1 Bulan (Sharing)", price: "7.000", detail: "Akun Bersama" },
+                    { id: "bs_2", name: "1 Tahun (Sharing)", price: "15.000", detail: "Garansi 6 Bulan" },
+                    { id: "bs_3", name: "1 Bulan (Private)", price: "24.000", detail: "Akun Pribadi" }
+                ]
+            },
+            {
+                id: 7,
+                name: "ChatGPT 5.2 / Plus",
+                category: "Produktivitas",
+                description: "✅ Full Garansi\n✅ Akun disediakan oleh Seller\nℹ️ Akses fitur ChatGPT Plus.",
+                image: "https://placehold.co/150x150/10b981/ffffff?text=ChatGPT",
+                variants: [
+                    { id: "cg_1", name: "1 Minggu (Plus Share)", price: "15.000", detail: "Akun Bersama" },
+                    { id: "cg_2", name: "1 Bulan (Plus Share)", price: "28.000", detail: "Akun Bersama" },
+                    { id: "cg_3", name: "1 Bulan (Plus Private)", price: "60.000", detail: "Akun Pribadi" }
+                ]
+            },
+            {
+                id: 8,
+                name: "Netflix Premium",
+                category: "Hiburan",
+                description: "✅ Resolusi Ultra HD 4K | Support All Device\n✅ Full Garansi (S&K Berlaku, Max error 3x24 Jam)\n✅ Akun dari Admin\n⚠️ Koordinasi perpanjang 3-5 hari sebelum habis",
+                image: "https://placehold.co/150x150/e50914/ffffff?text=Netflix",
+                variants: [
+                    { id: "nf_1", name: "3 Hari (Sharing 1P1U)", price: "8.000", detail: "Coba Singkat" },
+                    { id: "nf_2", name: "1 Minggu (Sharing 1P1U)", price: "12.000", detail: "1 Profil 1 User" },
+                    { id: "nf_3", name: "1 Bulan (Sharing 1P2U)", price: "25.000", detail: "1 Profil 2 User" },
+                    { id: "nf_4", name: "1 Bulan (Sharing 1P1U)", price: "35.000", detail: "1 Profil 1 User" },
+                    { id: "nf_5", name: "1 Bulan (Semi Private)", price: "40.000", detail: "Lebih Eksklusif" },
+                    { id: "nf_6", name: "1 Bulan (Private)", price: "175.000", detail: "Full Account" }
+                ]
+            },
+            {
+                id: 9,
+                name: "Vidio",
+                category: "Hiburan",
+                description: "⚠️ Disarankan beli PRIVATE jika untuk nonton BOLA.\n✅ Private: Akun dari seller, BISA ubah password\n⚠️ Sharing Mobile: Max 2 Device\n⚠️ Sharing All Device: Max 3 Device\nℹ️ Garansi/Tidak Garansi tergantung kebijakan jika ter-banned",
+                image: "https://placehold.co/150x150/ef4444/ffffff?text=Vidio",
+                variants: [
+                    { id: "vd_1", name: "1 Tahun (Only TV)", price: "10.000", detail: "No Garansi" },
+                    { id: "vd_2", name: "1 Bulan (Sharing Mobile)", price: "17.000", detail: "Khusus HP" },
+                    { id: "vd_3", name: "1 Bulan (Private Mobile)", price: "25.000", detail: "Khusus HP (Private)" }
+                ]
+            },
+            {
+                id: 10,
+                name: "Viu Premium",
+                category: "Hiburan",
+                description: "✅ Akun dari Seller\n✅ Bergaransi",
+                image: "https://placehold.co/150x150/eab308/ffffff?text=Viu",
+                variants: [
+                    { id: "vi_1", name: "1 Bulan (Anti Limit)", price: "2.000", detail: "Harga Promo" },
+                    { id: "vi_2", name: "2 Bulan (Anti Limit)", price: "3.000", detail: "Harga Promo" },
+                    { id: "vi_3", name: "6 Bulan (Anti Limit)", price: "5.000", detail: "Harga Promo" },
+                    { id: "vi_4", name: "1 Bulan (Premium)", price: "8.000", detail: "Premium Standar" },
+                    { id: "vi_5", name: "1 Tahun (Anti Limit)", price: "10.000", detail: "Harga Promo" }
+                ]
+            },
+            {
+                id: 11,
+                name: "WeTV Premium",
+                category: "Hiburan",
+                description: "✅ Akun dari Seller\n✅ Kualitas hingga 1080P\n⚠️ Aturan Sharing: Maksimal 4 User/Pengguna",
+                image: "https://placehold.co/150x150/3b82f6/ffffff?text=WeTV",
+                variants: [
+                    { id: "wt_1", name: "1 Bulan (Sharing)", price: "7.000", detail: "Shared Max 4 User" },
+                    { id: "wt_2", name: "3 Bulan (Sharing)", price: "12.000", detail: "Shared Max 4 User" },
+                    { id: "wt_3", name: "1 Bulan (Private)", price: "30.000", detail: "Akun Pribadi" }
+                ]
+            },
+            {
+                id: 12,
+                name: "Prime Video",
+                category: "Hiburan",
+                description: "✅ Support All Device\n✅ Akun Dari Admin\n⚠️ Tanya stok sebelum order",
+                image: "https://placehold.co/150x150/0ea5e9/ffffff?text=Prime+Video",
+                variants: [
+                    { id: "pv_1", name: "1 Bulan (Sharing)", price: "7.000", detail: "Full Garansi" },
+                    { id: "pv_2", name: "3 Bulan (Sharing)", price: "15.000", detail: "Full Garansi" },
+                    { id: "pv_3", name: "6 Bulan (Sharing)", price: "23.000", detail: "Full Garansi" },
+                    { id: "pv_4", name: "1 Tahun (Sharing)", price: "30.000", detail: "Full Garansi" },
+                    { id: "pv_5", name: "1 Bulan (Private)", price: "7.000", detail: "NO GARANSI" },
+                    { id: "pv_6", name: "1 Bulan (Private)", price: "12.000", detail: "Full Garansi" }
+                ]
+            }
+        ];
+
+        // Format nomor WA 62...
+        const nomorWhatsApp = "6285643642422"; 
+        
+        let currentProduct = null;
+        let selectedVariant = null;
+
+        const gridContainer = document.getElementById('product-grid');
+        const modal = document.getElementById('variant-modal');
+        const modalHeaderContent = document.getElementById('modal-header-content');
+        const modalVariantsContainer = document.getElementById('modal-variants-container');
+        const checkoutBtn = document.getElementById('modal-checkout-btn');
+
+        // Render Produk ke Grid
+        products.forEach(product => {
+            // Ambil harga termurah untuk ditampilkan di card
+            const lowestPrice = product.variants.reduce((min, p) => p.price.length < min.length || (p.price.length === min.length && p.price < min) ? p.price : min, product.variants[0].price);
+            
+            const imageUrl = product.image;
+
+            const card = document.createElement('div');
+            card.className = "bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-xl hover:border-indigo-200 hover:-translate-y-1 transition-all duration-300 flex flex-col group cursor-pointer";
+            card.onclick = () => openModal(product.id);
+            
+            // Format deskripsi singlat untuk card
+            const shortDesc = product.description.split('\n')[0].replace(/✅|⚠️|ℹ️/g, '').trim();
+
+            card.innerHTML = `
+                <div class="flex items-start justify-between mb-4">
+                    <img src="${imageUrl}" alt="${product.name}" class="w-16 h-16 rounded-full object-cover border-2 border-slate-100 group-hover:scale-110 group-hover:border-primary/30 transition-all duration-300 shadow-sm bg-slate-50">
+                </div>
+                
+                <h3 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-primary transition-colors">${product.name}</h3>
+                <p class="text-slate-500 text-sm flex-grow mb-6 line-clamp-2">
+                    ${shortDesc}...
+                </p>
+                
+                <div class="mt-auto border-t border-slate-100 pt-4">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-slate-500 block mb-0.5">Mulai dari</span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="text-sm font-semibold text-slate-900">Rp</span>
+                                <span class="text-2xl font-extrabold text-slate-900 tracking-tight">${lowestPrice}</span>
+                            </div>
+                        </div>
+                        <div class="w-10 h-10 rounded-full bg-slate-50 text-slate-400 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors">
+                            <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+                </div>
+            `;
+            gridContainer.appendChild(card);
+        });
+
+        // Fungsi Buka Modal
+        function openModal(productId) {
+            currentProduct = products.find(p => p.id === productId);
+            if (!currentProduct) return;
+
+            // Reset state
+            selectedVariant = null;
+            checkoutBtn.classList.add('opacity-50', 'cursor-not-allowed', 'pointer-events-none');
+            
+            // Render Header & Deskripsi
+            const formattedDesc = currentProduct.description.replace(/\n/g, '<br>');
+            modalHeaderContent.innerHTML = `
+                <h3 class="text-2xl font-extrabold text-slate-900 mb-2">${currentProduct.name}</h3>
+                <div class="text-sm text-slate-600 bg-slate-100/50 p-3 rounded-lg border border-slate-200/60 leading-relaxed">
+                    ${formattedDesc}
+                </div>
+                <p class="text-xs font-semibold text-primary mt-4 mb-1 uppercase tracking-wider">Pilih Varian Paket:</p>
+            `;
+            
+            // Render Varian
+            modalVariantsContainer.innerHTML = '';
+            currentProduct.variants.forEach((variant, index) => {
+                const variantEl = document.createElement('label');
+                variantEl.className = "flex items-center p-4 border border-slate-200 rounded-xl mb-3 cursor-pointer hover:bg-indigo-50 hover:border-indigo-200 transition-all group has-[:checked]:bg-indigo-50 has-[:checked]:border-primary has-[:checked]:ring-1 has-[:checked]:ring-primary";
+                
+                variantEl.innerHTML = `
+                    <div class="flex items-center h-5">
+                        <input id="${variant.id}" name="variant_selection" type="radio" value="${index}" class="w-5 h-5 text-primary bg-slate-100 border-slate-300 focus:ring-primary cursor-pointer" onchange="selectVariant(${index})">
+                    </div>
+                    <div class="ml-4 flex-1 flex justify-between items-center">
+                        <div>
+                            <span class="block text-sm font-bold text-slate-900 group-hover:text-primary transition-colors">${variant.name}</span>
+                            <span class="block text-xs text-slate-500 mt-0.5">${variant.detail}</span>
+                        </div>
+                        <div class="text-right">
+                            <span class="block text-base font-extrabold text-slate-900">Rp ${variant.price}</span>
+                        </div>
+                    </div>
+                `;
+                modalVariantsContainer.appendChild(variantEl);
+            });
+
+            // Tampilkan modal
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; 
+        }
+
+        // Fungsi saat Varian Dipilih
+        window.selectVariant = function(variantIndex) {
+            selectedVariant = currentProduct.variants[variantIndex];
+            
+            // Aktifkan tombol checkout
+            checkoutBtn.classList.remove('opacity-50', 'cursor-not-allowed', 'pointer-events-none');
+            
+            // Generate link WA dinamis
+            const message = encodeURIComponent(`Halo Admin Dapstore,\nSaya tertarik untuk memesan:\n\n*Produk:* ${currentProduct.name}\n*Varian:* ${selectedVariant.name}\n*Harga:* Rp ${selectedVariant.price}\n\nApakah masih tersedia?`);
+            checkoutBtn.href = `https://wa.me/${nomorWhatsApp}?text=${message}`;
+        }
+
+        // Fungsi Tutup Modal
+        window.closeModal = function() {
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+            currentProduct = null;
+            selectedVariant = null;
+        }
+
+        // Re-inisialisasi icon
+        lucide.createIcons();
+    </script>
+</body>
+</html>
